@@ -19,12 +19,16 @@ const Hero1 = styled.img`
   transform: translate(15%, -30%);
   grid-area: b;
   @media (min-width: 650px) {
-    transform: translate(0%, 0%, 0%);
     height: 600px;
     width: 600px;
     position: absolute;
-    top: 15%;
+    top: 7%;
     right: -5%;
+  }
+  @media (min-width: 1000px) {
+    height: 800px;
+    width: 800px;
+    right: 0;
   }
 `;
 const Hero2 = styled.img`
@@ -32,13 +36,17 @@ const Hero2 = styled.img`
   transform: translateY(-15%);
   grid-area: b;
   @media (min-width: 650px) {
-    transform: translate(0%, 0%, 0%);
     height: 600px;
     width: 600px;
     position: absolute;
-    top: 20%;
+    top: 7%;
     right: -10%;
     z-index: 2;
+  }
+  @media (min-width: 1000px) {
+    height: 800px;
+    width: 800px;
+    right: -5%;
   }
 `;
 
